@@ -9,6 +9,7 @@ const Home = () => (
       </h1>
       <p className='desc text-center'>
         PromptWorld es una herramienta para el mundo moderno, donde se pueden descubrir, crear y compartir prompts creativos.
+        Qué viva Web hpta!
       </p>
   
       <Feed />

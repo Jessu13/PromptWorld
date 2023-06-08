@@ -31,7 +31,7 @@ const UpdatePrompt = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    if (!promptId) return alert("Missing PromptId!");
+    if (!promptId) return alert("Falta el id del prompt!");
 
     try {
       const response = await fetch(`/api/prompt/${promptId}`, {
@@ -54,7 +54,7 @@ const UpdatePrompt = () => {
 
   return (
     <Form
-      type='Edit'
+      type='Edita'
       post={post}
       setPost={setPost}
       submitting={submitting}
